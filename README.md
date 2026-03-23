@@ -1,6 +1,6 @@
 # QA Final Project Java - V2
 
-![[CI CD Pipeline](https://github.com/Makelino92/qa-final-project-javaV2/actions/workflows/ci.yml/badge.svg)](https://github.com/Makelino92/qa-final-project-javaV2/actions/workflows/ci.yml)
+[![CI CD Pipeline](https://github.com/Makelino92/qa-final-project-javaV2/actions/workflows/ci.yml/badge.svg)](https://github.com/Makelino92/qa-final-project-javaV2/actions/workflows/ci.yml))
 
 ## 1. Descriere Proiect
 Acest proiect este un cadru de testare automata pentru API-uri, utilizand Java si Maven.
