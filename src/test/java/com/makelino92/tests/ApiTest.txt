@@ -1,14 +1,14 @@
-TEST CASE: Get User by ID
+TEST CASE: Verify Todo Item
 -------------------------
-ENDPOINT: /users/1
+ENDPOINT: https://jsonplaceholder.typicode.com/todos/1
 METHOD: GET
 
 STEPS:
-1. Iau URL-ul din config/app.yaml
-2. Trimit cererea GET catre server
-3. Verific daca primesc raspuns
+1. Trimit cererea GET catre URL-ul de mai sus
+2. Astept raspunsul de la server
+3. Verific statusul si continutul JSON
 
 EXPECTED RESULTS:
 - Status Code sa fie 200
-- Sa gasesc in raspuns id: 1
-- Sa gasesc numele: Leanne Graham
+- Response Body sa contina campul "title"
+- Response Body sa NU fie gol
