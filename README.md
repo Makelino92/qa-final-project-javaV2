@@ -1,23 +1,13 @@
 # QA Final Project Java - V2
 
-![Java CI with Maven](https://github.com/Makelino92/qa-final-project-javaV2/actions/workflows/maven.yml/badge.svg)
+![[CI CD Pipeline](https://github.com/Makelino92/qa-final-project-javaV2/actions/workflows/ci.yml/badge.svg)](https://github.com/Makelino92/qa-final-project-javaV2/actions/workflows/ci.yml)
 
 ## 1. Descriere Proiect
-Acest proiect este un cadru de testare automata pentru API-uri, dezvoltat in Java. 
+Acest proiect este un cadru de testare automata pentru API-uri, utilizand Java si Maven.
 
 ## 2. Rulare Teste Local
-Pentru a rula testele local, foloseste:
-```bash
-mvn test
-```
+Foloseste comanda: `mvn test`
 
 ## 3. Utilizare Docker
-### Build Image:
-```bash
-docker build -t qa-final-project .
-```
-
-### Run Container:
-```bash
-docker run qa-final-project
-```
+**Build:** `docker build -t qa-final-project .`
+**Run:** `docker run qa-final-project`
