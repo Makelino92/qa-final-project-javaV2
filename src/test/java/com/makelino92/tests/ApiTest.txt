@@ -1,0 +1,14 @@
+TEST CASE: Get User by ID
+-------------------------
+ENDPOINT: /users/1
+METHOD: GET
+
+STEPS:
+1. Iau URL-ul din config/app.yaml
+2. Trimit cererea GET catre server
+3. Verific daca primesc raspuns
+
+EXPECTED RESULTS:
+- Status Code sa fie 200
+- Sa gasesc in raspuns id: 1
+- Sa gasesc numele: Leanne Graham
