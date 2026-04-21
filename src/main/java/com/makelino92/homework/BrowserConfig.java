@@ -1,5 +1,8 @@
 package com.makelino92.homework;
 
+import org.jetbrains.annotations.Contract;
+import org.jetbrains.annotations.NotNull;
+
 public class BrowserConfig {
     private BrowserType browser;
     private String version;
@@ -23,7 +26,8 @@ public class BrowserConfig {
     }
 
     // Metoda Statică Factory
-    public static BrowserConfig createDefaultChromeConfig() {
+    @Contract(value = " -> new", pure = true)
+    public static @NotNull BrowserConfig createDefaultChromeConfig() {
         return new BrowserConfig(BrowserType.CHROME, "latest", true);
     }
 
